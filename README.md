@@ -18,7 +18,7 @@
 
 实物效果：
 
-![实物照片](docs/images/board-photo.png)
+![实物照片](docs/images/board-photo-original.png)
 
 ## 硬件文件
 
