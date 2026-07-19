@@ -46,8 +46,6 @@
 
 | 文件夹 | 作用 |
 | --- | --- |
-| `docs/images/` | 原理图、PCB 和实物照片。 |
-| `docs/protocols/` | DHT11、DS1302Z、NV020D 的读写时序与通信说明。 |
 | `software/MDK-ARM/application/` | 闹钟状态、页面显示和 FreeRTOS 任务代码。 |
 | `software/MDK-ARM/interface/` | 传感器、时钟、语音、LED、按键和输入接口代码。 |
 | `software/MDK-ARM/common/` | 调试输出封装。 |
