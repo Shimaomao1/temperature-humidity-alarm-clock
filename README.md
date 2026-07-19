@@ -19,6 +19,14 @@
 - 实时时钟：DS1302Z，使用 32.768 kHz 晶振和备用电池。
 - 语音：NV020D，一线控制发送播放、音量、循环和停止命令。
 
+## 嘉立创 EDA 工程文件
+
+嘉立创 EDA 原始工程已经放回仓库的 [`hardware/easyeda/`](hardware/easyeda/) 目录：
+
+- [完整工程包](hardware/easyeda/temperature-humidity-alarm-clock.epro2)
+- [独立原理图工程包](hardware/easyeda/temperature-humidity-alarm-clock-schematic.epro2)
+- [独立 PCB 工程包](hardware/easyeda/temperature-humidity-alarm-clock-pcb.epro2)
+
 ## 程序运行架构
 
 `main.c` 负责硬件初始化和启动任务，真正的业务逻辑由五个 FreeRTOS 任务完成。
