@@ -1,0 +1,37 @@
+# Keil/ARMCC intermediate and output files
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.sct
+*.dep
+*.htm
+*.s19
+*.objlist
+*.map.view
+*.map.old
+build/
+MDK-ARM/build/
+
+# Keil user-local settings and backups
+*.uvoptx
+*.uvguix*
+*.bak
+*.pdb
+**/.cmsis/
+
+# Editor and OS files
+.vs/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Local analysis/cache files
+.em_skill.json
+analysis/
